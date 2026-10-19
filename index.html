@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Output Repository - zakwanzufar86</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #58a6ff;
+            border-bottom: 2px solid #30363d;
+            padding-bottom: 10px;
+        }
+        .card {
+            background-color: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 25px;
+        }
+        .card h2 {
+            margin-top: 0;
+            color: #79c0ff;
+            font-size: 1.25rem;
+        }
+        img, video {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            border: 1px solid #30363d;
+            margin-top: 10px;
+        }
+        .file-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .file-list li {
+            padding: 10px;
+            background-color: #21262d;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .btn-download {
+            background-color: #238636;
+            color: white;
+            text-decoration: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 0.9rem;
+        }
+        .btn-download:hover {
+            background-color: #2ea043;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Output Hasil Pengolahan - zakwanzufar86</h1>
+
+    <!-- SECTION 1: GAMBAR -->
+    <div class="card">
+        <h2>📷 Output Gambar</h2>
+        
+        <h3>4 Indeks Malang</h3>
+        <img src="output/4_indeks_malang.png" alt="4 Indeks Malang">
+
+        <h3 style="margin-top: 25px;">Citra Malang</h3>
+        <img src="output/citra_malang.png" alt="Citra Malang">
+    </div>
+
+    <!-- SECTION 2: VIDEO -->
+    <div class="card">
+        <h2>🎥 Output Video</h2>
+        <video controls>
+            <source src="output/WhatsApp Video 2026-10-17 at 20.35.58.mp4" type="video/mp4">
+            Browser Anda tidak mendukung pemutaran video.
+        </video>
+    </div>
+
+    <!-- SECTION 3: FILE DATA & GEO TIF -->
+    <div class="card">
+        <h2>📁 File Data & GeoTIFF (Download)</h2>
+        <ul class="file-list">
+            <li>
+                <span>Klasifikasi Tutupan Lahan (.tif)</span>
+                <a class="btn-download" href="output/Klasifikasi_Tutupan_Lahan.tif" download>Download</a>
+            </li>
+            <li>
+                <span>NDBI Malang (.tif)</span>
+                <a class="btn-download" href="output/NDBI_malang.tif" download>Download</a>
+            </li>
+            <li>
+                <span>NDCI Cloud Malang (.tif)</span>
+                <a class="btn-download" href="output/NDCI_Cloud_Malang.tif" download>Download</a>
+            </li>
+            <li>
+                <span>NDVI Malang (.tif)</span>
+                <a class="btn-download" href="output/NDVI_malang.tif" download>Download</a>
+            </li>
+            <li>
+                <span>NDWI Malang (.tif)</span>
+                <a class="btn-download" href="output/NDWI_malang.tif" download>Download</a>
+            </li>
+            <li>
+                <span>Citra Malang (.tif)</span>
+                <a class="btn-download" href="output/citra_malang.tif" download>Download</a>
+            </li>
+            <li>
+                <span>Zonal Statistics Malang (.csv)</span>
+                <a class="btn-download" href="output/Zonal_Statistics_Malang.csv" download>Download</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>
